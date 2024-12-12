@@ -44,6 +44,7 @@ setup_git_repo() {
   local SSH_KEY_PATH="$3"
   local CLONE_DIR="$4"
 
+  echo " :::: Running script: github.com/Vydia/smooth-checkout-buildkite-plugin/blob/main/hooks/checkout"
   echo " :::: local clone location = '$CLONE_DIR'"
   echo " :::: git remote url = '$REPO_URL'"
   echo " :::: ssh key path = '$SSH_KEY_PATH'"
